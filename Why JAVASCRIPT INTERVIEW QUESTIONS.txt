@@ -1,11 +1,11 @@
 
-why javascript is single threaded?
+Q1- why javascript is single threaded?
 
 Javascript is single threaded because it only have one call stack. 
 However Javascript can also be non-blocking i.e will not execute line by line in some situations.
 
 
-Differnce between arrow functions and regular functions?
+Q2- Differnce between arrow functions and regular functions?
 
 1- Hoisting does'nt take place in arrow functions(fun fact: they are anoymous functions)
  whereas in regular functions hoisting takes place i.e calling function before
@@ -15,43 +15,47 @@ deceleration.
 
 Note: Fun fact setTimeout function are arrow funtions because settimeout dont require names
 
-When to use regular functions?
+
+Q3-When to use regular functions?
 We should use regular functions over arrow functions when we require hoisting
 
-what is use.memo?
+
+Q4- what is use.memo?
 
 memo will cause React to skip rendering a component if its props have not changed.
 
 
-Why react is very fast?
+Q5- Why react is very fast?
 
 React is very fast due to virtual DOM. React first checks in virtual DOM which objects have changed
 and only update those in the real DOM. And than changes on the screen occurs due to the changes on the real DOM
 
-what is useMemo?
+
+Q6- what is useMemo?
 
 useMemo only re-renders when its dependcy has changed. 
 
-What is a useCallBack hook?
+
+Q7- What is a useCallBack hook?
 
 useCallBack hook returns a memoized function callback which renders only when dependency passed to the useCallBack
 changes. Second answer is:
 One reason to use useCallback is to prevent a component from re-rendering unless its props have changed.
 
 
-What is similarity is useMemo and useCallBack?
+Q8- What is similarity is useMemo and useCallBack?
 
 The similarity is that both increase performance by comparing values to previous and rendering only if value changes. They keep
 cache i.e increasing size this is the reason they should only be used when needed. As in one condition they increase performance
 however with a cost of increasing app size
 
 
-What is the difference between useMemo and React.memo?
+Q9- What is the difference between useMemo and React.memo?
 
 React.memo is related to component whereas useMemo is related to value.
 
 
-Why should we use React.memo, useMemo, useCallback??
+Q10- Why should we use React.memo, useMemo, useCallback??
 
 We should use them for optimization purposes.
 
