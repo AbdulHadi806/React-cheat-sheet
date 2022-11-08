@@ -8,8 +8,8 @@ However Javascript can also be non-blocking i.e will not execute line by line in
 Q2- Differnce between arrow functions and regular functions?
 
 1- Hoisting does'nt take place in arrow functions(fun fact: they are anoymous functions)
- whereas in regular functions hoisting takes place i.e calling function before
-deceleration.
+   whereas in regular functions hoisting takes place i.e calling function before
+   deceleration.
 2- Arrow functions does not have .this
 3- In arrow functions we cannot access aruguments.
 
