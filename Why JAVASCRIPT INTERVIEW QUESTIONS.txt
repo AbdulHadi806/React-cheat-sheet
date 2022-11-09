@@ -128,3 +128,13 @@ Q20- What are functional components?
 
 These type of components have no state of there own and are often called stateless. However with the discovery of hook now we can implement
 states into React and moreover from now onwards they are stateful.
+
+
+
+
+
+
+
+
+
+Note: Many topics may have been changed as computer world is ever growing.........
