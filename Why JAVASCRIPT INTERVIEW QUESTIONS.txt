@@ -130,7 +130,9 @@ These type of components have no state of there own and are often called statele
 states into React and moreover from now onwards they are stateful.
 
 
+Q21- What is the difference between element and component in react?
 
+A React Element is what gets returned from components. Whereas component is the building block of an app.
 
 
 
