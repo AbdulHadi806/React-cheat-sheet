@@ -109,3 +109,9 @@ Q17- what is the difference between useEffect and uselayoutEffect?
 The difference between useEffect and useLayoutEffect is that useEffect runs after useLayoutEffect also In useEffect,
 when a user triggers a render (by updating state or props), React updates the screen, and the useEffect callback function 
 runs asynchronously in the background. In useLayoutEffect, the callback function runs synchronously before the screen is updated.
+
+
+Q18- What are thunk? 
+
+Thunks are functions which are used to delay a functionality. Actions in redux are by default synchronous however to have
+a asynchronous action we need to wrap it in a thunk function.
