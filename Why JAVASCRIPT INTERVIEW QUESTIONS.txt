@@ -83,10 +83,22 @@ whereas spread expands iterables(e.g array) into individual elements.
 
 
 Q15- What is shallow copy and deep copy in JS
+ 
+ Main answer:
+A deep copying means that value of the new variable is disconnected from the original variable
+while a shallow copy means that some values are still connected to the original variable.
 
+Secondary info:
 The difference between deep and shallow copy is that shallow copy copies the reference
 whereas deep copy copies the reference and its values and creates a new reference another defination of deep 
 copy is that it clones the first element(e.g object) but both clones are located at different positions i.e
 if any change occurs in any of the clone than it wont update the other clone.
 
 fun fact: using spread ... to copy an array, we only create a shallow copy. If the array is nested or multi-dimensional, it won't work
+
+
+Q16- What are three priciples of redux?
+
+1. All state is stored in store.
+2. Inorder to update state we emit actions.
+3. We write pure reducers to describe state change to happen.
