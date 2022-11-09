@@ -59,3 +59,24 @@ Q10- Why should we use React.memo, useMemo, useCallback??
 
 We should use them for optimization purposes.
 
+
+Q11- What is difference between find() and filter() in js?
+
+Filter returns the element in a new array which fulfills the required condition whereas find starts a loop and stops when the first element satisfies
+the condition.
+
+
+Q12- What is difference between splice and slice in js
+
+Slice returns a new array with specific elements selected from an array whereas splice updates the same array.
+
+
+Q13- Difference between == and ===?
+
+== compares only value whereas === compares both value and data type.
+
+
+Q14- what is the difference between spread and rest?
+
+The main difference between rest and spread is that rest operator puts rest of some specific values into an array
+whereas spread expands iterables into individual elements.
