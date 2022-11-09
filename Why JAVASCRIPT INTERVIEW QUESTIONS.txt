@@ -20,9 +20,9 @@ Q3-When to use regular functions?
 We should use regular functions over arrow functions when we require hoisting
 
 
-Q4- what is use.memo?
+Q4- what is React.memo?
 
-memo will cause React to skip rendering a component if its props have not changed.
+React.memo will cause React to skip rendering a component if its props have not changed.
 
 
 Q5- Why react is very fast?
