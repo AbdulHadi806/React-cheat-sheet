@@ -62,8 +62,7 @@ We should use them for optimization purposes.
 
 Q11- What is difference between find() and filter() in js?
 
-Filter returns the element in a new array which fulfills the required 
-condition whereas find starts a loop and stops when the first element satisfies
+Filter returns the element in a new array which fulfills the required condition whereas find starts a loop and stops when the first element satisfies
 the condition.
 
 
@@ -85,14 +84,9 @@ whereas spread expands iterables(e.g array) into individual elements.
 
 Q15- What is shallow copy and deep copy in JS
 
-What is Shallow copy?
-A bitwise copy of an object, where a new object is created and it has the same copy of the values in the
-original object, is called a Shallow copy.If any of the object fields refer to the other object
-then in such cases only the reference address is copied.
-
-What is Deep copy?
-When the process of copying occurs repetitively and a copy of the object is always copied in another object, then it is called deep copy.
-In this process, initially, a new collection of the object is constructed, and then the copies of the child object 
-frequently populate those found in the original.
+The difference between deep and shallow copy is that shallow copy copies the reference
+whereas deep copy copies the reference and its values and creates a new reference another defination of deep 
+copy is that it clones the first element(e.g object) but both clones are located at different positions i.e
+if any change occurs in any of the clone than it wont update the other clone.
 
 fun fact: using spread ... to copy an array, we only create a shallow copy. If the array is nested or multi-dimensional, it won't work
