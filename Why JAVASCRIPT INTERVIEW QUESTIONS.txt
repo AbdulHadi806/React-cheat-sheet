@@ -102,3 +102,10 @@ Q16- What are three priciples of redux?
 1. All state is stored in store.
 2. Inorder to update state we emit actions.
 3. We write pure reducers to describe state change to happen.
+
+
+Q17- what is the difference between useEffect and uselayoutEffect?
+
+The difference between useEffect and useLayoutEffect is that useEffect runs after useLayoutEffect also In useEffect,
+when a user triggers a render (by updating state or props), React updates the screen, and the useEffect callback function 
+runs asynchronously in the background. In useLayoutEffect, the callback function runs synchronously before the screen is updated.
