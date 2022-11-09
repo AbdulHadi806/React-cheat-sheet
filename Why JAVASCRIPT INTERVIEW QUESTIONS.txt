@@ -115,3 +115,10 @@ Q18- What are thunk?
 
 Thunks are functions which are used to delay a functionality. Actions in redux are by default synchronous however to have
 a asynchronous action we need to wrap it in a thunk function.
+
+
+Q19- What are the purposes of middleware?
+
+1- It allows us to return functions instead of objects from redux actions.
+2- Middleware allows for side effects to be run without blocking state updates. 
+3- Middleware helps you with logging, error reporting, making asynchronous requests, and a whole lot more.
