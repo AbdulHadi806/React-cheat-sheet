@@ -1,0 +1,15 @@
+Q1- What is the difference between some() and every()?
+
+The difference between some() and every() is that some() applies a test on an array to check whether
+it has atleast one element which passes the condition. On the other hand every() runs a test on an array
+to check whether if all elements pass the test if any element fails than the loop stops.
+Both this methods return either true or false.
+
+
+Q2- What if we apply map() with a condition?
+
+If we apply map() with a condition and than it will return elements which do pass the condition on the other hand
+it will also return elements as "undifined" as there placeholder which do not pass the condtion.
+
+
+Q3- 
