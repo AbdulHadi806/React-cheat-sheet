@@ -15,4 +15,5 @@ it will also return elements as "undifined" as there placeholder which do not pa
 Q3- What is the difference between primitives and non-primitives type?
 
 primitives are also called value type, primitives are number, string, boolean, NULL, Infinity and symbol. Whereas
-objects are non-primitives type. Non-primitives are copied by reference so they are also called reference type.
+objects are non-primitives type. Non-primitives are copied by reference so they are also called reference type. 
+Whereas pimitives are copied by there value so they are also called value type.
