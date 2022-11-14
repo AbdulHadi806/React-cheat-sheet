@@ -12,4 +12,7 @@ If we apply map() with a condition and than it will return elements which do pas
 it will also return elements as "undifined" as there placeholder which do not pass the condtion.
 
 
-Q3- 
+Q3- What is the difference between primitives and non-primitives type?
+
+primitives are also called value type, primitives are number, string, boolean, NULL, Infinity and symbol. Whereas
+objects are non-primitives type. Non-primitives are copied by reference so they are also called reference type.
